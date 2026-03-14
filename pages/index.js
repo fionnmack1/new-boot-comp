@@ -30,4 +30,30 @@ export default function Home() {
       </section>
     </div>
   );
-}
+} import Header from "../components/Header";
+import Footer from "../components/Footer";
+import BootCard from "../components/BootCard";
+import boots from "../data/boots";
+
+const Home = () => {
+  return (
+    <div>
+      <Header />
+      <main className="container mx-auto p-4">
+        <section className="text-center my-8">
+          <h1 className="text-4xl font-bold">Find the Perfect Football Boots</h1>
+          <input type="text" placeholder="Search boots..." className="border rounded p-2 mt-4" />
+        </section>
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {boots.map((boot, index) => (
+            <BootCard key={index} boot={boot} />
+          ))}
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
+
