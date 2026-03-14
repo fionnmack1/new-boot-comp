@@ -1,14 +1,5 @@
 
 
-        <div className="mt-6">
-          <Link
-            className="inline-flex items-center rounded-lg bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
-            href="/boots"
-          >
-            View all boots
-          </Link>
-        </div>
-      </section>
 
       <section className="rounded-2xl border bg-white p-6">
         <h3 className="text-lg font-semibold">What you can add next</h3>
