@@ -1,14 +1,4 @@
-import Link from "next/link";
 
-export default function Home() {
-  return (
-    <div className="space-y-6">
-      <section className="rounded-2xl border bg-white p-6">
-        <h2 className="text-2xl font-semibold tracking-tight">Football Boot Comparison</h2>
-        <p className="mt-2 text-gray-600">
-          A simple place to list boots and compare quick specs. Start by editing {" "}
-          <code className="rounded bg-gray-100 px-2 py-1 text-sm">data/boots.js</code>.
-        </p>
 
         <div className="mt-6">
           <Link
