@@ -1,15 +1,4 @@
-export default function BootCard({ boot }) {
-  return (
-    <div className="rounded-xl border bg-white p-4 shadow-sm">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h3 className="text-base font-semibold">{boot.name}</h3>
-          <p className="mt-1 text-sm text-gray-600">{boot.brand}</p>
-        </div>
-        <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
-          {boot.surface}
-        </span>
-      </div>
+
 
       <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
         <div className="rounded-lg bg-gray-50 p-3">
