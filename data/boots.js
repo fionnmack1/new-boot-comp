@@ -33,3 +33,26 @@ export const boots = [
     notes: "Flexible upper; good for wider feet.",
   },
 ];
+const boots = [
+  {
+    brand: "Nike",
+    model: "Mercurial Vapor 14",
+    price: 250,
+    surfaceType: "FG",
+    weight: "200g",
+    rating: "4.8",
+    image: "/images/nike-mercurial-vapor-14.jpg",
+  },
+  {
+    brand: "Adidas",
+    model: "X Ghosted",
+    price: 230,
+    surfaceType: "SG",
+    weight: "220g",
+    rating: "4.7",
+    image: "/images/adidas-x-ghosted.jpg",
+  },
+  // Add more boot objects here
+];
+
+export default boots;
