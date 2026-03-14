@@ -1,15 +1,4 @@
-export const boots = [
-  {
-    id: "nike-mercurial-vapor",
-    name: "Mercurial Vapor",
-    brand: "Nike",
-    surface: "FG",
-    price: "$275",
-    studs: "Bladed",
-    width: "Narrow",
-    weight: "Light",
-    notes: "Speed boot; snug fit.",
-  },
+
   {
     id: "adidas-predator",
     name: "Predator",
